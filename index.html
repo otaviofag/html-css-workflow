@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML and CSS in Practice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Web Design in Practice</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#From_Code_to_Website">From Code to Website</a>
+    <a class="nav-link" href="#Understanding_Domains_and_Hosting">Understanding Domains and Hosting</a>
+    <a class="nav-link" href="#Publishing_Your_Project">Publishing Your Project</a>
+    <a class="nav-link" href="#Tools_for_Web_Designers">Tools for Web Designers</a>
+    <a class="nav-link" href="#Final_Considerations">Final Considerations</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This technical documentation will guide you on how to apply your HTML and CSS skills to real-world projects.</p>
+      <p>By understanding the full web development workflow, you will be able to confidently create and deploy websites.</p>
+    </section>
+
+    <section class="main-section" id="From_Code_to_Website">
+      <header>From Code to Website</header>
+      <p>Turning code into a live website involves more than just writing HTML and CSS.</p>
+      <p>You should organize your files logically, for example:</p>
+      <ul>
+        <li><code>index.html</code> - the main HTML file</li>
+        <li><code>styles.css</code> - the CSS stylesheet</li>
+        <li><code>images/</code> - folder for images</li>
+        <li><code>scripts/</code> - folder for JavaScript files if needed</li>
+      </ul>
+      <p>Proper organization helps maintainability and scalability.</p>
+      <p>Example of linking CSS in HTML:</p>
+      <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+    </section>
+
+    <section class="main-section" id="Understanding_Domains_and_Hosting">
+      <header>Understanding Domains and Hosting</header>
+      <p>A domain is your website's address on the internet, like <code>www.example.com</code>.</p>
+      <p>Hosting is a service that stores your website's files and serves them to visitors.</p>
+      <p>There are many hosting providers, both free and paid, such as:</p>
+      <ul>
+        <li>GitHub Pages (free for static sites)</li>
+        <li>Netlify</li>
+        <li>Vercel</li>
+        <li>Bluehost</li>
+        <li>HostGator</li>
+      </ul>
+      <p>Setting up a domain usually involves purchasing it and configuring DNS records to point to your hosting.</p>
+    </section>
+
+    <section class="main-section" id="Publishing_Your_Project">
+      <header>Publishing Your Project</header>
+      <p>You can publish your site using free platforms like GitHub Pages.</p>
+      <p>For more control, paid hosting allows server-side scripting and databases.</p>
+      <p>To publish, you typically upload your files to the host via:</p>
+      <ul>
+        <li>Git pushes (for GitHub Pages, Netlify)</li>
+        <li>FTP/SFTP (for traditional hosts)</li>
+      </ul>
+      <p>Example command to push to GitHub:</p>
+      <code>git push origin main</code>
+      <p>After uploading, your site becomes accessible via your domain or hosting URL.</p>
+    </section>
+
+    <section class="main-section" id="Tools_for_Web_Designers">
+      <header>Tools for Web Designers</header>
+      <p>Many tools help with writing and debugging code:</p>
+      <ul>
+        <li>Code editors like Visual Studio Code</li>
+        <li>Browser Developer Tools to inspect and debug</li>
+        <li>Version control with Git and GitHub</li>
+        <li>Preprocessors like Sass (optional)</li>
+        <li>CSS validators to ensure code quality</li>
+      </ul>
+      <p>Example CSS code snippet:</p>
+      <code>body { font-family: Arial, sans-serif; }</code>
+    </section>
+
+    <section class="main-section" id="Final_Considerations">
+      <header>Final Considerations</header>
+      <p>Practice regularly by building small projects.</p>
+      <p>Understand client needs to provide better solutions.</p>
+      <p>Remember to keep your code clean and well-organized.</p>
+      <p>Use version control to track changes and collaborate.</p>
+      <p>Start building your portfolio to showcase your skills.</p>
+    </section>
+  </main>
+</body>
+</html>
